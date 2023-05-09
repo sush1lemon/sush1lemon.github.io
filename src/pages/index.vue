@@ -5,8 +5,8 @@
       <div class="flex gap-4 items-center">
         <img
             class="inline-block h-[3.875rem] w-[3.875rem] rounded-full ring-2 ring-white dark:ring-gray-800"
-            src="https://api.dicebear.com/6.x/lorelei/svg?seed=Cookie"
-            alt="Image Description"
+            src="/favicon.svg"
+            alt="Developer Profile Image"
         />
         <div class="flex flex-col text-white">
           <h1 class="block text-2xl font-bold text-white sm:text-4xl">

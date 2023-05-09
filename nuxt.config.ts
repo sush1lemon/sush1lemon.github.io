@@ -30,6 +30,9 @@ export default defineNuxtConfig({
       other tools like Node.js, Go, Typescript, and Svelte.`,
         },
       ],
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.svg' }
+      ]
     },
   },
 });
