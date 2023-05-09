@@ -25,14 +25,14 @@ export default defineNuxtConfig({
       meta: [
         {
           name: "description",
-          content: `I'm a software developer with almost 5 years of experience developing web
-      applications. I mostly use Laravel, Tailwind, and Vue, but I can also use
-      other tools like Node.js, Go, Typescript, and Svelte.`,
+          content: `I'm a software developer with almost 5 years of experience developing web applications. I mostly use Laravel, Tailwind, and Vue, but I can also use other tools like Node.js, Go, Typescript, and Svelte.`,
+        },
+        {
+          property: "og:image",
+          content: "/favicon.svg",
         },
       ],
-      link: [
-        { rel: 'icon', type: 'image/x-icon', href: '/favicon.svg' }
-      ]
+      link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.svg" }],
     },
   },
 });

@@ -29,7 +29,7 @@ export default defineComponent({
     handleScroll() {
       const scrollBtn = this.$refs.scrollTopButton;
 
-      if (window.scrollY > 0) {
+      if (window.scrollY > 100) {
         scrollBtn.classList.remove("invisible");
       } else {
         scrollBtn.classList.add("invisible");
