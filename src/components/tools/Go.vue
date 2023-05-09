@@ -1,0 +1,3 @@
+<template>
+  <span class="tool bg-sky-700 text-white">Go</span>
+</template>
