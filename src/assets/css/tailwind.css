@@ -5,6 +5,7 @@
 .tool{
     @apply inline-flex text-center items-center py-0 sm:py-1 px-2 rounded-full text-xs font-medium cursor-pointer;
 }
+
 .active-nav{
-    @apply text-white hover:text-white
+    @apply text-white hover:!text-white;
 }

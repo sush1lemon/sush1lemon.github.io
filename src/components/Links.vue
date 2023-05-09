@@ -1,7 +1,7 @@
 <template>
     <div id="links">
         <h1 class="block text-lg font-bold text-white mt-3 mb-1">Links</h1>
-        <div class="flex flex-col text-sm text-white">
+        <div class="flex flex-col text-white">
             <div>
                 LinkedIn:
                 <a href="https://www.linkedin.com/in/jezerdave/" target="_blank" class="underline">@jezerdave</a>

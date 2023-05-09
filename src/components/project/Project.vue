@@ -7,7 +7,7 @@
             </h2>
             <span class="text-sm">{{ project.description }}</span>
         </div>
-        <div class="grid grid-cols-2 gap-0.5 sm:gap-1 max-w-xl"  v-if="showGallery && project.showImage">
+        <div class="grid grid-cols-2 gap-0.5 sm:gap-1"  v-if="showGallery && project.showImage">
             <img v-for="x in 4" class="inline-block min-h-[4rem] sm:min-h-[10rem] aspect-video rounded cursor-pointer" :src="`/images/${project.folderName}/${x}.webp`"
                  :alt="`${project.name} image`" loading="lazy"  data-hs-overlay="#hs-image-modal" @click="setPreviewImage(`/images/${project.folderName}/${x}.webp`)">
         </div>
