@@ -17,12 +17,12 @@
             :project="project"
             show-gallery
           />
-            <Project
-                    v-for="project in sideProjects"
-                    :key="project.name"
-                    :project="project"
-                    show-gallery
-            />
+          <Project
+            v-for="project in sideProjects"
+            :key="project.name"
+            :project="project"
+            show-gallery
+          />
         </div>
       </div>
     </div>
@@ -32,7 +32,7 @@
 <script lang="ts" setup>
 import { useData } from "~/composables/useData";
 
-const { projects, tools, sideProjects } = useData();
+const { projects, sideProjects } = useData();
 </script>
 
 <style scoped></style>

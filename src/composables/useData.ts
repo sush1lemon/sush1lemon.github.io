@@ -56,11 +56,13 @@ const sideProjects = [
         name: "Shorty",
         link: "https://shorty.sush1.xyz/",
         description: "A URL Shortener living on the edge using cloudflare workers, pages and kv",
+        stack: [Vue, "Cloudflare Pages", "Cloudflare Workers", "Cloudflare KV"]
     },
     {
         name: "Godswar Server Emulator",
         link: "https://github.com/sush1lemon/godswar-server",
         description: "",
+        stack: [Go, "TCP/IP"]
     },
 ]
 

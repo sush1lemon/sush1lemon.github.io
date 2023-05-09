@@ -54,13 +54,13 @@
         <div
           class="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:pl-5"
         >
-          <nuxt-link aria-current="page" class="font-medium text-white" to="/"
+          <nuxt-link aria-current="page" class="font-medium text-gray-400 hover:text-gray-500" active-class="active-nav" to="/"
             >About</nuxt-link
           >
           <nuxt-link class="font-medium text-gray-400 hover:text-gray-500" to="/#experience"
           >Experience</nuxt-link
           >
-          <nuxt-link class="font-medium text-gray-400 hover:text-gray-500" to="/#projects"
+          <nuxt-link class="font-medium text-gray-400 hover:text-gray-500" active-class="active-nav" to="/projects"
           >Projects</nuxt-link
           >
           <nuxt-link class="font-medium text-gray-400 hover:text-gray-500" to="/#links"

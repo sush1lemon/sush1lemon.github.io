@@ -14,7 +14,8 @@
       </div>
     </div>
   </div>
-  <ImageModal></ImageModal>
+  <ImageModal/>
+  <BackToTop/>
 </template>
 
 <script setup lang="ts">
