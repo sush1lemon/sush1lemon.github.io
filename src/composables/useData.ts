@@ -34,6 +34,8 @@ const projects = [
         link: "https://omnistaff.hirayamnl.com",
         description: "Appointment scheduling system that enables users to discover nearby healthcare professionals. The system takes care of everything\n" +
         "from healthcare compliance up to invoicing",
+        folderName: "omni",
+        showImage: true,
         stack: [Laravel, Vue, "Quasar"]
     },
     {

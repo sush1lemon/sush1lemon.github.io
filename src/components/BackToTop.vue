@@ -1,7 +1,7 @@
 <template>
   <div
     ref="scrollTopButton"
-    class="fixed w-full flex justify-end bottom-0 pb-3 pr-5 transition"
+    class="fixed w-full flex justify-end bottom-0 pb-3 pr-5 transition invisible"
   >
     <div class="text-gray-400 hover:text-blue-400 transition">
       <button
@@ -19,6 +19,7 @@
 export default defineComponent({
   mounted() {
     window.addEventListener("scroll", this.handleScroll);
+    this.handleScroll()
   },
 
   beforeUnmount() {
