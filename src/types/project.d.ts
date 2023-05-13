@@ -1,11 +1,12 @@
-interface Project {
+export interface Project {
     name: string
     description: string
     link: string
     folderName: string
+    stack?: string[]
 }
 
-interface ProjectTool {
+export interface ProjectTool {
     name: string
     link?: string
     bgColor: string
