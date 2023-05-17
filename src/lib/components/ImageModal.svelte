@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { modalImage } from "../stores/modalImage";
+  import { modalImage } from "$lib/stores/modalImage";
 </script>
 <div
   id="hs-image-modal"

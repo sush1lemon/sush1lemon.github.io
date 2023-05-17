@@ -1,9 +1,9 @@
-import Laravel from "../components/tools/Laravel.svelte";
-import Vue from "../components/tools/Vue.svelte";
-import Tailwind from "../components/tools/Tailwind.svelte";
-import Redis from "../components/tools/Redis.svelte";
-import Go from "../components/tools/Go.svelte";
-import Node from "../components/tools/Node.svelte";
+import Laravel from "$lib/components/tools/Laravel.svelte";
+import Vue from "$lib/components/tools/Vue.svelte";
+import Tailwind from "$lib/components/tools/Tailwind.svelte";
+import Redis from "$lib/components/tools/Redis.svelte";
+import Go from "$lib/components/tools/Go.svelte";
+import Node from "$lib/components/tools/Node.svelte";
 
 export const projects = [
   {

@@ -1,9 +1,9 @@
 <script lang="ts">
   import "../app.css";
-  import Navbar from "../components/navbar/Navbar.svelte";
-  import Footer from "../components/Footer.svelte";
-  import ImageModal from "../components/ImageModal.svelte";
-  import BackToTop from "../components/BackToTop.svelte";
+  import Navbar from "$lib/components/navbar/Navbar.svelte";
+  import Footer from "$lib/components/Footer.svelte";
+  import ImageModal from "$lib/components/ImageModal.svelte";
+  import BackToTop from "$lib/components/BackToTop.svelte";
 </script>
 
 <svelte:head>

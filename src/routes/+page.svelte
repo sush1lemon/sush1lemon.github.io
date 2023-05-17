@@ -1,13 +1,13 @@
 <script>
-  import About from "../components/About.svelte";
-  import Experience from "../components/Experience.svelte";
-  import Links from "../components/Links.svelte";
-  import { projects, sideProjects } from "../stores/data";
-  import Project from "../components/Project.svelte";
+  import { projects, sideProjects } from "$lib/stores/data";
+  import Project from "$lib/components/Project.svelte";
+  import About from '$lib/components/About.svelte';
+  import Experience from '$lib/components/Experience.svelte';
+  import Links from '$lib/components/Links.svelte';
 </script>
 
 <main id="content">
-  <div class="py-10 px-4 sm:px-6 lg:px-8 flex flex-col gap-8">
+  <div class="py-4 sm:py-10 px-4 sm:px-6 lg:px-8 flex flex-col gap-8">
     <div class="flex gap-4 items-center">
       <img
         class="inline-block h-[3.875rem] w-[3.875rem] rounded-full ring-2 ring-white dark:ring-gray-800"

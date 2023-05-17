@@ -9,7 +9,7 @@
     aria-label="Global"
     class="w-full px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8"
   >
-    <div class="flex items-center justify-between">
+    <div class="flex items-center justify-end">
       <!--        <a-->
       <!--          aria-label="Brand"-->
       <!--          class="flex-none text-xl font-semibold text-white"-->
@@ -57,16 +57,16 @@
       <div
         class="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:pl-5"
       >
-        <a aria-current="page" class="font-medium text-gray-400 hover:text-gray-500" class:active-nav="{$page.url.pathname === '/'}" href="/"
+        <a data-hs-collapse="#navbar-collapse-with-animation" aria-current="page" class="text-right font-medium text-gray-400 hover:text-gray-500" class:active-nav="{$page.url.pathname === '/'}" href="/"
         >About</a
         >
-        <a class="font-medium text-gray-400 hover:text-gray-500" href="/#experience"
+        <a data-hs-collapse="#navbar-collapse-with-animation" class="text-right font-medium text-gray-400 hover:text-gray-500" href="/#experience"
         >Experience</a
         >
-        <a class="font-medium text-gray-400 hover:text-gray-500" class:active-nav="{$page.url.pathname.includes('/projects')}" href="/projects"
+        <a data-hs-collapse="#navbar-collapse-with-animation" class="text-right font-medium text-gray-400 hover:text-gray-500" class:active-nav="{$page.url.pathname.includes('/projects')}" href="/projects"
         >Projects</a
         >
-        <a class="font-medium text-gray-400 hover:text-gray-500" href="/#links"
+        <a data-hs-collapse="#navbar-collapse-with-animation" class="text-right font-medium text-gray-400 hover:text-gray-500" href="/#links"
         >Links</a
         >
       </div>

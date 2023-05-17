@@ -1,6 +1,6 @@
 <script lang="ts">
-  import { setPreviewImage } from "../stores/modalImage";
-  import { tools } from "../stores/data";
+  import { setPreviewImage } from "$lib/stores/modalImage";
+  import { tools } from "$lib/stores/data";
   import type { Project } from "../types";
   export let project: Project;
 

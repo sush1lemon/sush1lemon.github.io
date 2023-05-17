@@ -1,10 +1,10 @@
 <script>
-  import Project from "../../components/Project.svelte";
-  import { projects, sideProjects } from "../../stores/data";
+  import Project from "$lib/components/Project.svelte";
+  import { projects, sideProjects } from '$lib/stores/data';
 </script>
 
 <main id="content">
-  <div class="py-10 px-4 sm:px-6 lg:px-8 flex flex-col gap-8">
+  <div class="py-4 sm:py-10 px-4 sm:px-6 lg:px-8 flex flex-col gap-8">
     <div class="flex gap-4 items-center">
       <div class="flex flex-col text-white">
         <h1 class="block text-2xl font-bold text-white sm:text-4xl">
