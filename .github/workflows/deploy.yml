@@ -77,7 +77,7 @@ jobs:
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
           accountId: ${{ secrets.CF_ACCOUNT_ID}}
-          command: pages publish deploy --project-name=jezer-portfolio
+          command: pages deploy build --project-name=jezer-portfolio
         id: cf
       - name: Outputs
         run: |
