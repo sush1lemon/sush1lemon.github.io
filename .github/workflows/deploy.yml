@@ -86,7 +86,7 @@ jobs:
           echo "Environment: ${{ steps.cf.outputs.environment }}"
           echo "Alias: ${{ steps.cf.outputs.alias }}"
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v4
         with:
           path: ./build
   # Deployment job
