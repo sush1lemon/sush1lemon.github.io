@@ -1,6 +1,6 @@
 <div id="links">
-    <h1 class="block text-lg font-bold text-white mt-3 mb-1">Links</h1>
-    <div class="flex flex-col text-white">
+    <h1 class="block text-lg font-bold text-pretty mt-3 mb-1">Socials</h1>
+    <div class="flex flex-col text-pretty">
         <div>
             LinkedIn:
             <a href="https://www.linkedin.com/in/jezerdave/" target="_blank" class="underline">@jezerdave</a>
@@ -16,7 +16,7 @@
         </div>
         <div>
             Discord:
-            <a href="https://discord.com/" target="_blank" class="underline">@sush1lemon#4863</a>
+            <a href="https://discord.com/" target="_blank" class="underline">@swooshii.</a>
         </div>
     </div>
 </div>

@@ -1,7 +1,8 @@
 <script lang="ts">
   import { onDestroy, onMount } from "svelte";
+  import { browser } from '$app/environment';
 
-  let scrollBtn;
+  let scrollBtn: HTMLElement;
 
   onMount(() => {
     window.addEventListener("scroll", handleScroll);
@@ -9,7 +10,7 @@
   })
 
   onDestroy(() => {
-    if (process.browser) {
+    if (browser) {
       window.removeEventListener("scroll", handleScroll);
     }
   })
@@ -21,6 +22,7 @@
       scrollBtn.classList.add("invisible");
     }
   }
+
   const scrollToTop = function() {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
@@ -29,7 +31,7 @@
 
 <div
   bind:this={scrollBtn}
-  class="fixed w-full flex justify-end bottom-0 pb-3 pr-5 transition invisible"
+  class="fixed flex justify-end bottom-0 right-0 pb-3 pr-5 transition invisible"
 >
   <div class="text-gray-400 hover:text-blue-400 transition">
     <button
