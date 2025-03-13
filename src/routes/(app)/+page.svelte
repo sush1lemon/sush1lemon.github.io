@@ -1,4 +1,6 @@
 <script>
+	export const prerender = true;
+
 	import About from '$lib/components/About.svelte';
 	import Experience from '$lib/components/Experience.svelte';
 	import * as Avatar from "$lib/components/ui/avatar/index";

@@ -1,3 +1,8 @@
+<script>
+	export const prerender = true;
+
+</script>
+
 <svelte:head>
 	<title>Jezer Dave Bacquian | Skills and Tools</title>
 </svelte:head>

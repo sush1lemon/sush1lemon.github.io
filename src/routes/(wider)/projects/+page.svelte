@@ -1,4 +1,6 @@
 <script lang="ts">
+	export const prerender = true;
+
 	import * as Card from '$lib/components/ui/card';
 	import { Badge } from '$lib/components/ui/badge';
 	import * as Carousel from '$lib/components/ui/carousel';

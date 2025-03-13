@@ -77,7 +77,7 @@ jobs:
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
           accountId: ${{ secrets.CF_ACCOUNT_ID}}
-          command: pages deploy .svelte-kit/output --project-name=jezer-portfolio
+          command: pages deploy build --project-name=jezer-portfolio
         id: cf
       - name: Outputs
         run: |
@@ -88,7 +88,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          path: ./.svelte-kit/cloudflare
+          path: ./build
   # Deployment job
   deploy:
     environment:
